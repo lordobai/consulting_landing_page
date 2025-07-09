@@ -173,13 +173,10 @@ const Services = () => {
               Join industry leaders who have achieved breakthrough results with our computational science 
               and AI methodologies, reducing development time by 60-80% and improving success rates.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <button className="group bg-white text-charcoal-800 px-8 py-4 rounded-xl font-semibold text-lg shadow-medium hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center">
                 Schedule Consultation
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="group bg-transparent border-2 border-white/30 hover:border-white/50 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:-translate-y-1">
-                Download Brochure
               </button>
             </div>
           </div>

@@ -83,14 +83,11 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+          {/* CTA Button */}
+          <div className="flex justify-center items-center mb-16">
             <button className="group bg-gradient-to-r from-charcoal-800 to-slate-800 hover:from-charcoal-900 hover:to-slate-900 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-strong hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 flex items-center">
               Start Your R&D Transformation
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </button>
-            <button className="group bg-white/90 backdrop-blur-sm border-2 border-charcoal-200 hover:border-charcoal-300 text-charcoal-800 px-8 py-4 rounded-xl font-semibold text-lg shadow-soft hover:shadow-medium transition-all duration-300 transform hover:-translate-y-1">
-              View Case Studies
             </button>
           </div>
 
